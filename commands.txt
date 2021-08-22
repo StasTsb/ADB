@@ -1,0 +1,33 @@
+==========================ADB====================================
+
+Командная строка (cmd)> (D:) > (cd D:\Programs\platform-tools) > (adb)
+
+Список подключенных девайсов  |  adb devices
+Перезагрузка девайса          |  adb reboot
+Очистка старых логов          |  adb logcat -c
+Записать логи                 |  adb logcat -v threadtime >.\log.txt
+Воспроизведение бага на мобильном устройстве
+Остановить запись логов       |  Ctrl + C
+
+Установка приложений          |  adb install d:/downloads/имя_файла.apk
+Скриншот                      |  adb shell screencap /sdcard/screen.png
+Пул скрина                    |  adb pull /sdcard/screen.png
+Видео                         |  adb shell screenrecord --size 1280x720 --bit-rate 6000000 --time-limit 20 --verbose /sdcard/video.mp4
+
+Скрипт для автоматизации (#!/system/bin/sh) в начало, расширение файла .sh, закидываем на устрйство
+                              |  adb shell sh /sdcard/имя_файла.sh
+
+Снятие графического ключа, пин, фейслок (условие включенная отладка)
+                              |  adb shell
+                              |  $ su
+                              |  # cd /data/system
+                              |  # rm *.key
+Сами файлы могут быть: gesture.key, password.key, cm_gesture.key, personalpattern.key, personalbackuppin.key, 
+                       locksettings.db, locksettings.db-shm, locksettings.db-wal.
+Далее перезагрузить устройство, ввести новый.
+Второй вариант:
+                              |  adb shell
+                              |  $ cd /data/data/com.android.providers.settings/databases
+                              |  $ sqlite3 settings.db
+                              |  > update system set value=0 where name='lock_pattern_autolock';
+                              |  > update system set value=0 where name='lockscreen.lockedoutpermanently';
