@@ -14,6 +14,8 @@
 Пул скрина                    |  adb pull /sdcard/screen.png
 Видео                         |  adb shell screenrecord --size 1280x720 --bit-rate 6000000 --time-limit 20 --verbose /sdcard/video.mp4
 
+Очистить командную строку     |  cls
+
 Скрипт для автоматизации (#!/system/bin/sh) в начало, расширение файла .sh, закидываем на устрйство
                               |  adb shell sh /sdcard/имя_файла.sh
 
