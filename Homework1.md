@@ -13,27 +13,27 @@
    </tr>
    <tr>
     <td>2. Вывести адрес приложения todolist в системе Android
-    <td><img src="https://github.com/StasTsb/DevTools/blob/70d20972935617ceeb47c537f11ade737c4e540e/screen/3Dev.png" width="340" height="126"></td>
+    <td><img src="https://github.com/StasTsb/ADB/blob/0440bee742fc65daa376890e31f9f5cc18ba7d87/Screen/2.png" width="340" height="126"></td>
   </tr>
     <tr>
     <td>3. Установить .apk файл приложениия todolist на телефон с компьютера через  ADB
-    <td><img src="https://github.com/StasTsb/DevTools/blob/70d20972935617ceeb47c537f11ade737c4e540e/screen/4Dev.png" width="340" height="126"></td>
+    <td><img src="https://github.com/StasTsb/ADB/blob/0440bee742fc65daa376890e31f9f5cc18ba7d87/Screen/3.png" width="340" height="126"></td>
    </tr>
    <tr>
     <td>4. Сделать скриншот запущенного приложения todolist и сразу скопировать на компьютер в одной команде.
-    <td><img src="https://github.com/StasTsb/DevTools/blob/70d20972935617ceeb47c537f11ade737c4e540e/screen/5Dev.png" width="340" height="126"></td>
+    <td><img src="https://github.com/StasTsb/ADB/blob/0440bee742fc65daa376890e31f9f5cc18ba7d87/Screen/4.png" width="340" height="126"></td>
   </tr>
     <tr>
     <td>5. Вывести в консоль логи приложения todolist
-    <td><img src="https://github.com/StasTsb/DevTools/blob/70d20972935617ceeb47c537f11ade737c4e540e/screen/6Dev.png" width="340" height="126"></td>
+    <td><img src="https://github.com/StasTsb/ADB/blob/0440bee742fc65daa376890e31f9f5cc18ba7d87/Screen/5.png" width="340" height="126"></td>
    </tr>
    <tr>
     <td>6. Скопировать логи приложения todolist на компьютер.
-    <td><img src="https://github.com/StasTsb/DevTools/blob/70d20972935617ceeb47c537f11ade737c4e540e/screen/7Dev.png" width="340" height="126"></td>
+    <td><img src="https://github.com/StasTsb/ADB/blob/0440bee742fc65daa376890e31f9f5cc18ba7d87/Screen/6.png" width="340" height="126"></td>
   </tr>
    <tr>
     <td>7. Удалить приложение todolist с телефона через ADB
-    <td><img src="https://github.com/StasTsb/DevTools/blob/70d20972935617ceeb47c537f11ade737c4e540e/screen/8Dev.png" width="340" height="126"></td>
+    <td><img src="https://github.com/StasTsb/ADB/blob/0440bee742fc65daa376890e31f9f5cc18ba7d87/Screen/7.png" width="340" height="126"></td>
   </tr>
  </table>
  </body>
