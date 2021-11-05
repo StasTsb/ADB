@@ -9,7 +9,7 @@
   <table border="1">
    <tr>
     <td>1. Отобразить подключённый девайс в консоли.
-    <td><img src="https://github.com/StasTsb/DevTools/blob/2a400169ac2d2767a53f5a5c7e6f1a5de5cc3525/screen/2Dev.png" width="340" height="126"></td>
+    <td><https://github.com/StasTsb/ADB/blob/dfc1cdf423c4ead9bedc7161daf7207c497597a6/Screen/1.png></td>
    </tr>
    <tr>
     <td>2. Вывести адрес приложения todolist в системе Android
