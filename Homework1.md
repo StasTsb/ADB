@@ -13,7 +13,7 @@
    </tr>
    <tr>
     <td>2. Вывести адрес приложения todolist в системе Android
-    <td><img src="https://github.com/StasTsb/DevTools/blob/70d20972935617ceeb47c537f11ade737c4e540e/screen/3Dev.png" width="340" height="126"></td>
+    <td><https://github.com/StasTsb/ADB/blob/0440bee742fc65daa376890e31f9f5cc18ba7d87/Screen/2.png></td>
   </tr>
     <tr>
     <td>3. Установить .apk файл приложениия todolist на телефон с компьютера через  ADB
