@@ -1,6 +1,6 @@
 ==========================ADB====================================
 
-Командная строка (cmd)> (D:) > (cd D:\Programs\platform-tools) > (adb)
+Командная строка (cmd) Just (D:) > (cd D:\Programs\platform-tools) > (adb)
 
 Список подключенных девайсов  |  adb devices
 Перезагрузка девайса          |  adb reboot
